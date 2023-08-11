@@ -95,7 +95,7 @@ workflows:
       android_signing:
         - keystore_reference
       groups:
-        - google_play {"json":"test"}
+        - google_play
       xcode: 12.4
       node: 12
       npm: 6        
